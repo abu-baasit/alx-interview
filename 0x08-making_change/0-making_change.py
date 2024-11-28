@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-"""Changes from within"""
-   
-   
+"""Changes comes from within"""
+
+
 def make_change(coins, total):
     """Determines the fewest number of coins needed
-         to meet a given amount total"""
+        to meet a given amount total"""
     if total <= 0:
         return 0
-          
+
     total_coins = 0
     coins_used = 0
     coins = sorted(coins, reverse=True)
